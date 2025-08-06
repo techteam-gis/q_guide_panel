@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--?xml version="1.0" encoding="utf-8"?-->
+
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="_x31_0"
+   x="0px"
+   y="0px"
+   viewBox="0 0 512 512"
+   style="width: 512px; height: 512px; opacity: 1;"
+   xml:space="preserve"
+   sodipodi:docname="tbMeasure.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs2" /><sodipodi:namedview
+   id="namedview2"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="1.0957031"
+   inkscape:cx="256"
+   inkscape:cy="256"
+   inkscape:window-width="1664"
+   inkscape:window-height="1212"
+   inkscape:window-x="1080"
+   inkscape:window-y="243"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="g2" />
+<style
+   type="text/css"
+   id="style1">
+	.st0{fill:#374149;}
+</style>
+<g
+   id="g2">
+	<path
+   class="st0"
+   d="M412.626,129.753c8.107-8.084,8.127-21.254,0.042-29.362c-8.088-8.107-21.258-8.13-29.362-0.046   c-8.111,8.084-8.127,21.258-0.047,29.366C391.347,137.817,404.518,137.837,412.626,129.753z"
+   style="fill:#000000;fill-opacity:1"
+   id="path1" />
+	<path
+   class="st0"
+   d="M391.594,6.442c-8.061-8.088-21.153-8.107-29.241-0.042L6.078,361.642c-8.088,8.061-8.107,21.153-0.042,29.237   l120.406,120.758L512,127.196L391.594,6.442z M275.996,253.532l20.634-20.571l34.562,34.662l-20.634,20.571l-34.518-34.62   L275.996,253.532z M422.47,90.616c13.471,13.51,13.44,35.463-0.07,48.938c-13.514,13.47-35.467,13.439-48.942-0.07   c-13.47-13.514-13.439-35.467,0.074-48.942C387.042,77.071,408.995,77.102,422.47,90.616z M388.389,210.59l-20.634,20.571   l-53.669-53.829l-0.332-0.328l20.634-20.575l53.903,54.063L388.389,210.59z M253.36,345.228l-34.562-34.662l20.634-20.571   l34.514,34.616l0.047,0.042l-20.63,20.571L253.36,345.228z M138.965,459.291l-34.562-34.662l20.63-20.571l34.518,34.62l0.043,0.042   l-20.63,20.568V459.291z M216.792,381.686l-20.63,20.571l-54.001-54.157l20.63-20.571L216.792,381.686z"
+   style="fill:#000000;fill-opacity:1"
+   id="path2" />
+</g>
+</svg>

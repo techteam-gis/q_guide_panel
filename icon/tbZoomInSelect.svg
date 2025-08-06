@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--?xml version="1.0" encoding="utf-8"?-->
+
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="_x31_0"
+   x="0px"
+   y="0px"
+   viewBox="0 0 512 512"
+   style="width: 512px; height: 512px; opacity: 1;"
+   xml:space="preserve"
+   sodipodi:docname="tbZoomInSelect.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs2" /><sodipodi:namedview
+   id="namedview2"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="1.0957031"
+   inkscape:cx="256"
+   inkscape:cy="256"
+   inkscape:window-width="1664"
+   inkscape:window-height="1212"
+   inkscape:window-x="1080"
+   inkscape:window-y="243"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="g2" />
+<style
+   type="text/css"
+   id="style1">
+	.st0{fill:#374149;}
+</style>
+<g
+   id="g2">
+	<path
+   class="st0"
+   d="M147.008,76.184c0-5.906,2.297-11.461,6.477-15.636l21.542-21.452L188.1,26.237h-0.015l0.019-0.019   l-0.125-0.016l0.145-0.14L39.784,5.531L0.195,0v0.004L0.172,0l0.004,0.047L0.012,0.023l16.074,117.018l9.636,71.001l0.016-0.016   l0.004,0.031l0.082-0.082l0.031,0.199l34.604-34.604c8.617-8.621,22.651-8.621,31.268,0l97.086,97.179l61.802-61.802L153.485,91.82   C149.305,87.641,147.008,82.09,147.008,76.184z"
+   style="fill:#000000;fill-opacity:1"
+   id="path1" />
+	<path
+   class="st0"
+   d="M511.988,512l-16.074-117.038l-9.636-70.978l-0.012,0.012l-0.004-0.035l-0.086,0.086l-0.028-0.199   l-34.603,34.603c-8.625,8.621-22.652,8.621-31.276,0l-96.707-96.808l-0.258-0.258l0,0l-0.113-0.114l-61.541,61.541l-0.133,0.129   l-0.129,0.137l97.125,97.128c4.179,4.176,6.48,9.726,6.48,15.636c0,5.906-2.301,11.461-6.472,15.632l-21.578,21.484l-13.046,12.823   l0.024,0.004l-0.024,0.023l0.122,0.016l-0.141,0.141L511.988,512z"
+   style="fill:#000000;fill-opacity:1"
+   id="path2" />
+</g>
+</svg>
