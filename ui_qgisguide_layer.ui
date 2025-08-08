@@ -495,7 +495,7 @@
          <number>1</number>
         </property>
         <property name="currentIndex">
-         <number>0</number>
+         <number>1</number>
         </property>
         <widget class="QWidget" name="vector">
          <layout class="QGridLayout" name="gridLayout_2">
@@ -704,13 +704,13 @@
            <widget class="QPushButton" name="pbRasterCalculator">
             <property name="minimumSize">
              <size>
-              <width>250</width>
+              <width>220</width>
               <height>36</height>
              </size>
             </property>
             <property name="maximumSize">
              <size>
-              <width>250</width>
+              <width>220</width>
               <height>36</height>
              </size>
             </property>
