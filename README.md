@@ -30,7 +30,7 @@ A convenient tool that makes it easy to perform frequently used QGIS actions suc
 
 このプラグインを起動すると、以下のようなコントロールパネルが表示されます。
 
-![コントロールパネル](./docs/images/コントロールパネル.png)
+![コントロールパネル](docs/images/コントロールパネル.png)
 
 パネルには地図操作や計測などに便利なツールが並んでおり、左から順に以下の機能を持ちます：
 
@@ -78,7 +78,7 @@ A convenient tool that makes it easy to perform frequently used QGIS actions suc
 
 コントロールパネルでレイヤ操作パネルボタンをクリックすると以下のようなレイヤツールが表示されます。
 
-![レイヤ操作パネル](./docs/images/レイヤ操作パネル.png)
+![レイヤ操作パネル](docs/images/レイヤ操作パネル.png)
 
 
 このパネルは、QGIS にインポートされたレイヤのうち、ユーザーが選択しているレイヤに応じて表示内容が切り替わる動的な構成となっています。レイヤの種類（ベクタ／ラスタ）や地物数に応じて、内容が自動で変化します。
@@ -91,7 +91,7 @@ A convenient tool that makes it easy to perform frequently used QGIS actions suc
 
 ベクタレイヤを選択すると、パネルが有効化され、対応する操作項目が表示されます。
 
-![レイヤ操作パネル（ベクタレイヤ選択時）](./docs/images/レイヤ操作パネル（ベクタレイヤ選択時）.png)
+![レイヤ操作パネル（ベクタレイヤ選択時）](docs/images/レイヤ操作パネル（ベクタレイヤ選択時）.png)
 
 上から以下の機能。ボタン名の右に「⋮」が表示されている場合は右クリックでサブメニュー表示
 
@@ -133,7 +133,7 @@ A convenient tool that makes it easy to perform frequently used QGIS actions suc
 
 「属性テーブルを開く」ボタンを押すと選択レイヤの属性テーブル欄が表示されます。
 
-![レイヤ操作パネル（ベクタレイヤ選択時‐属性テーブル欄表示）](./docs/images/レイヤ操作パネル（ベクタレイヤ選択時‐属性テーブル欄表示）.png)
+![レイヤ操作パネル（ベクタレイヤ選択時‐属性テーブル欄表示）](docs/images/レイヤ操作パネル（ベクタレイヤ選択時‐属性テーブル欄表示）.png)
 
 - 選択中レイヤの属性テーブルが表示されます。
 - レイヤパネルで別のレイヤを選択すると、属性テーブルは選択したレイヤに変わります。
@@ -141,7 +141,7 @@ A convenient tool that makes it easy to perform frequently used QGIS actions suc
 
 地物数が500件を超えるレイヤの場合、以下のようにボタンが表示されます。
 
-![レイヤ操作パネル（ベクタレイヤ選択時‐属性テーブル欄表示-500件超え）](./docs/images/レイヤ操作パネル（ベクタレイヤ選択時‐属性テーブル欄表示-500件超え）.png)
+![レイヤ操作パネル（ベクタレイヤ選択時‐属性テーブル欄表示-500件超え）](docs/images/レイヤ操作パネル（ベクタレイヤ選択時‐属性テーブル欄表示-500件超え）.png)
 
 - 全件表示ボタンをクリックするとすべての地物の属性テーブルが表示されます。
 
@@ -149,7 +149,7 @@ A convenient tool that makes it easy to perform frequently used QGIS actions suc
 
 ラスタレイヤを選択すると以下のように変わる。
 
-![レイヤ操作パネル（ラスタタレイヤ選択時）](./docs/images/レイヤ操作パネル（ラスタタレイヤ選択時）.png)
+![レイヤ操作パネル（ラスタタレイヤ選択時）](docs/images/レイヤ操作パネル（ラスタタレイヤ選択時）.png)
 
 上から「新規ファイルでエクスポートする」ボタンまではベクタレイヤのときと同じ機能です。
 
