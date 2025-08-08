@@ -85,7 +85,8 @@ A convenient tool that makes it easy to perform frequently used QGIS actions suc
 
 **【初期状態（レイヤ未選択時）】**
 
-表示した時点では何もできないが、QGISのレイヤパネルでレイヤを選択すると、選択したレイヤに応じて色々表示が変わる。
+パネルはグレーアウトされ、操作項目は表示されません。
+QGISのレイヤパネルでレイヤを選択すると、選択したレイヤに応じて色々表示が変わります。
 
 **【ベクタレイヤ選択時（属性テーブル欄非表示）】**
 
@@ -147,7 +148,7 @@ A convenient tool that makes it easy to perform frequently used QGIS actions suc
 
 **【ラスタレイヤ選択時】**
 
-ラスタレイヤを選択すると以下のように変わる。
+ラスタレイヤを選択すると以下のように変わります。
 
 ![レイヤ操作パネル（ラスタタレイヤ選択時）](./docs/images/layer_panel_raster.png)
 
