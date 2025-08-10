@@ -26,6 +26,7 @@ class LayerPanelDialog(QWidget, FORM_CLASS):
         self._saved_table_width = None  # wdTableの幅を保存する変数
         self.wdTable.setVisible(False)  # 起動時は非表示
         self.stackedWidget.setCurrentWidget(self.none)
+        self.frame_2.setVisible(False)
         self.pbTableView.toggled.connect(self.update_pbTableView_text)
         self.pbTableView.toggled.connect(self.toggle_layer_table)
         self.tbTableOpen.clicked.connect(self.open_qgis_attribute_table) 
@@ -229,6 +230,7 @@ class LayerPanelDialog(QWidget, FORM_CLASS):
             self.pbCallLabel.setEnabled(True)
             self.pbCallLabel.setChecked(layer.labelsEnabled())
             self.stackedWidget.setCurrentWidget(self.vector)
+            self.frame_2.setVisible(True)
             # pbTableViewがチェック状態でwdTableが非表示なら表示する
             if self.pbTableView.isChecked() and not self.wdTable.isVisible():
                 self.wdTable.setVisible(True)
@@ -241,6 +243,7 @@ class LayerPanelDialog(QWidget, FORM_CLASS):
                 self._show_attribute_table(layer)
         elif isinstance(layer, QgsRasterLayer):
             self.stackedWidget.setCurrentWidget(self.rastor)
+            self.frame_2.setVisible(True)
             # ラスタレイヤ選択時もwdTableを閉じる
             if self.wdTable.isVisible():
                 # wdTableの幅を保存してから非表示にする
@@ -254,6 +257,7 @@ class LayerPanelDialog(QWidget, FORM_CLASS):
             self.pbCallLabel.setEnabled(False)
             self.pbCallLabel.setChecked(False)
             self.stackedWidget.setCurrentWidget(self.none)
+            self.frame_2.setVisible(False)
             # レイヤ以外のときwdTableを閉じて幅を戻す
             if self.wdTable.isVisible():
                 # wdTableの幅を保存してから非表示にする

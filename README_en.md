@@ -1,5 +1,6 @@
 # q_guide_panel
-地図の移動や拡大縮小、属性確認、ラベル切り替えなど、QGISでよく使う機能を簡単に実行できる便利ツールです。
+A convenient tool that makes it easy to perform frequently used QGIS actions such as map navigation, zooming, attribute viewing, and label toggling.
+
 
 ---
 
@@ -29,7 +30,7 @@
 
 このプラグインを起動すると、以下のようなコントロールパネルが表示されます。
 
-![コントロールパネル](./docs/images/ja/control_panel.png)
+![コントロールパネル](./docs/images/en/control_panel.png)
 
 パネルには地図操作や計測などに便利なツールが並んでおり、左から順に以下の機能を持ちます。
 
@@ -77,7 +78,7 @@
 
 コントロールパネルでレイヤ操作パネルボタンをクリックすると以下のようなレイヤツールが表示されます。
 
-![レイヤ操作パネル](./docs/images/ja/layer_panel.png)
+![レイヤ操作パネル](./docs/images/en/layer_panel.png)
 
 
 初期状態（レイヤ未選択時）では、パネルはグレーアウトされ、操作項目は表示されません。
@@ -87,7 +88,7 @@ QGIS 標準のレイヤパネルでユーザーが選択したレイヤに応じ
 
 ベクタレイヤを選択すると、パネルが有効化され、対応する操作項目が表示されます。
 
-![レイヤ操作パネル（ベクタレイヤ選択時）](./docs/images/ja/layer_panel_vector.png)
+![レイヤ操作パネル（ベクタレイヤ選択時）](./docs/images/en/layer_panel_vector.png)
 
 上から順に以下の機能を持ちます。ボタン名の右に「⋮」が表示されている場合は右クリックでサブメニューが表示されます。
 
@@ -129,7 +130,7 @@ QGIS 標準のレイヤパネルでユーザーが選択したレイヤに応じ
 
 「属性テーブルを開く」ボタンを押すと選択レイヤの属性テーブル欄が表示されます。
 
-![レイヤ操作パネル（ベクタレイヤ選択時‐属性テーブル欄表示）](./docs/images/ja/layer_panel_vector_attrtable.png)
+![レイヤ操作パネル（ベクタレイヤ選択時‐属性テーブル欄表示）](./docs/images/en/layer_panel_vector_attrtable.png)
 
 - 選択中レイヤの属性テーブルが表示されます。
 - レイヤパネルで別のレイヤを選択すると、属性テーブルは選択したレイヤに変わります。
@@ -137,7 +138,7 @@ QGIS 標準のレイヤパネルでユーザーが選択したレイヤに応じ
 
 地物数が500件を超えるレイヤの場合、以下のようにボタンが表示されます。
 
-![レイヤ操作パネル（ベクタレイヤ選択時‐属性テーブル欄表示-500件超え）](./docs/images/ja/layer_panel_vector_attrtable_over_500.png)
+![レイヤ操作パネル（ベクタレイヤ選択時‐属性テーブル欄表示-500件超え）](./docs/images/en/layer_panel_vector_attrtable_over_500.png)
 
 - 全件表示ボタンをクリックするとすべての地物の属性テーブルが表示されます。
 
@@ -145,7 +146,7 @@ QGIS 標準のレイヤパネルでユーザーが選択したレイヤに応じ
 
 ラスタレイヤを選択すると以下のように変わります。
 
-![レイヤ操作パネル（ラスタタレイヤ選択時）](./docs/images/ja/layer_panel_raster.png)
+![レイヤ操作パネル（ラスタタレイヤ選択時）](./docs/images/en/layer_panel_raster.png)
 
 上から「新規ファイルでエクスポートする」ボタンまではベクタレイヤのときと同じ機能です。
 
