@@ -164,7 +164,7 @@ From the top to the "Export as New File" button, the functions are the same as f
 ## Author
 
 - 技術チーム合同会社  
-  Tech Team LLC  
+  TechTeam Solutions LLC
   https://techteam.co.jp/
 
 ---

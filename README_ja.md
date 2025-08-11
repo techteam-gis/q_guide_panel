@@ -163,7 +163,7 @@ QGIS 標準のレイヤパネルでユーザーが選択したレイヤに応じ
 ## Author
 
 - 技術チーム合同会社  
-  Tech Team LLC  
+  TechTeam Solutions LLC
   https://techteam.co.jp/
 
 ---
