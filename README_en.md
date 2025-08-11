@@ -4,175 +4,171 @@ A convenient tool that makes it easy to perform frequently used QGIS actions suc
 
 ---
 
-## 主な機能 / Features
+## Features
  
-- 属性テーブルのプレビュー表示
-- 一時的に特定レイヤのみを表示
-- レイヤラベルのON/OFF  
-- ズームイン・アウト、現在の倍率表示と変更  
-- 選択フィーチャの確認・選択解除  
-- 地図範囲から緯度経度ラインを作成（緯度経度別ファイル対応）  
-- QGIS標準機能のショートカット：レイヤスタイル、フィルター設定、属性テーブル、ラスタ計算機など
+- Preview display of attribute table
+- Temporarily display only a specific layer
+- Toggle layer labels ON/OFF  
+- Zoom in/out, display and change current scale  
+- Create latitude/longitude grid lines from map extent (supports separate files for lat/lon)  
+- Shortcuts to standard QGIS functions: layer style, filter settings, attribute table, raster calculator, etc.
 
 ---
 
-## インストール方法 / Installation
+## Installation
 
-1. QGISを起動し、[プラグイン] → [プラグインを管理とインストール] を開きます  
-2. 「QGIS Guide Panel」で検索し、インストールします  
-3. [プラグイン] → 「QGIS Guide Panel」 を選択すると表示されます
+1. Start QGIS and open [Plugins] → [Manage and Install Plugins]  
+2. Search for 'QGIS Guide Panel' and install it  
+3. Select [Plugins] → 'QGIS Guide Panel' to display the panel
 
 ---
 
-## 使い方 / Usage
+## Usage
 
-### コントロールパネル
+### Control Panel
 
-このプラグインを起動すると、以下のようなコントロールパネルが表示されます。
+When you launch this plugin, the following control panel will appear.
 
 ![コントロールパネル](./docs/images/en/control_panel.png)
 
-パネルには地図操作や計測などに便利なツールが並んでおり、左から順に以下の機能を持ちます。
+The panel contains tools useful for map navigation and measurement, listed from left to right as follows:
 
-1. 地図拡大ボタン
+- Zoom in on the map
+
+	Click to zoom in the map view by one step.
     
-    クリックすると、地図表示が一段階拡大されます。
+- Zoom out of the map
     
-2. 地図縮小ボタン
+	Click to zoom out the map view by one step.
     
-    クリックすると、地図表示が一段階縮小されます。
+- Pan tool
     
-3. 地図移動（パン）ツール
+	The cursor changes to a hand icon, allowing you to drag the map to move it.
     
-    カーソルが手のひらアイコンに変わり、地図をドラッグして移動できます。
+- Zoom in by selection
     
-4. 範囲指定による拡大
+	Zooms in to the area you drag on the map.
     
-    地図上でドラッグした範囲にズームインします。
+- Zoom out by selection
     
-5. 範囲指定による縮小
+	Zooms out according to the dragged area.
+
+- Distance Measurement Tool
     
-    ドラッグした範囲に応じてズームアウトします。
+	Click to activate distance measurement mode, then draw a line to measure the distance.
     
-6. 距離計測ツール
+- Display Layer Operation Panel
     
-    クリックで距離測定モードを起動し、線を引いて距離を計測できます。
+	Displays a dedicated panel for performing operations on the current layer.
     
-7. レイヤ操作パネルの表示
+- Latitude/Longitude Grid Creation Tool
     
-    現在のレイヤに対する操作を行う専用パネルを表示します。
+	Draws a latitude/longitude grid on the map. Right-click to display a submenu with the following settings:    
+	- Specify the spacing of latitude and longitude lines
+	- Option to separate latitude and longitude lines into different layers
+	- Option to save as a file instead of a temporary layer
+
+- Set Scale
     
-8. 緯度経度ライン作成ツール
-    
-    地図上に緯度経度グリッドを描画します。右クリックでサブメニューが表示され、以下の設定が可能です：
-    
-    - 緯度・経度のライン間隔の指定
-    - 緯度・経度ラインを別レイヤに分ける設定
-    - 仮レイヤではなくファイルとして保存する設定
-9. 縮尺の指定
-    
-    任意の縮尺を直接入力して地図表示を変更できます。
+	Enter a desired scale directly to change the map display.
     
 
-### レイヤツール
+### Layer Tools
 
-コントロールパネルでレイヤ操作パネルボタンをクリックすると以下のようなレイヤツールが表示されます。
+When you click the Layer Operation Panel button in the control panel, the following layer tools will be displayed.
 
-![レイヤ操作パネル](./docs/images/en/layer_panel.png)
+![Layer Operation Panel](./docs/images/en/layer_panel.png)
 
+In the initial state (when no layer is selected), the panel is grayed out and no operation items are displayed.  
+The display content changes according to the layer selected by the user in QGIS’s standard Layer Panel.
 
-初期状態（レイヤ未選択時）では、パネルはグレーアウトされ、操作項目は表示されません。
-QGIS 標準のレイヤパネルでユーザーが選択したレイヤに応じて表示内容が切り替わります。
+**[When a vector layer is selected (attribute table section hidden)]**
 
-**【ベクタレイヤ選択時（属性テーブル欄非表示）】**
+When a vector layer is selected, the panel becomes active and the corresponding operation items are displayed.
 
-ベクタレイヤを選択すると、パネルが有効化され、対応する操作項目が表示されます。
+![Layer Operation Panel (Vector Layer Selected)](./docs/images/en/layer_panel_vector.png)
 
-![レイヤ操作パネル（ベクタレイヤ選択時）](./docs/images/en/layer_panel_vector.png)
+From top to bottom, the functions are as follows.  
+If "⋮" is displayed to the right of the button name, right-click to open the submenu.
 
-上から順に以下の機能を持ちます。ボタン名の右に「⋮」が表示されている場合は右クリックでサブメニューが表示されます。
+- Display/Edit Layer Name  
+    - Displays the name of the selected layer.  
+    - Click the pencil icon to edit the name; click again to apply the changes to the layer.
+- Display File Name / Open Folder  
+    - Displays the file name of the selected layer.  
+    - Click the folder button to open the folder where it is saved.
+- Layer Type and CRS  
+    - Displays the type and EPSG code of the selected layer.
+- Show Only the Selected Layer  
+    - Click to display only the selected layer on the map, temporarily hiding other layers.  
+    - When the selected layer changes, the display target follows accordingly.  
+    - Click again to return to the original display state.  
+    - Right-click to open a submenu and individually specify layers not to be hidden.  
+    - If the panel is closed, the original display state is automatically restored.
+- Zoom to Layer Extent  
+    - Zooms and pans the map area to fit the entire extent of the selected layer.
+- Open Layer Properties  
+    - Opens the Layer Properties window of the selected layer.
+- Open Style Settings  
+    - Opens the Style Settings panel of the selected layer.
+- Export as New File  
+    - Opens a window to export the selected layer as a new file.
+- Feature Count Field  
+    - Displays the number of features in the selected layer.
+- Open Attribute Table  
+    - Opens the Attribute Table panel for the selected layer.
+- Toggle Label Visibility  
+    - Turns label display of the selected layer ON/OFF.  
+    - If label settings already exist, they are preserved while toggling display.  
+    - Right-click to select the field used for labeling.  
+    - However, if complex settings such as rule-based labels are used, this function is disabled.
+- Open Field Calculator  
+    - Opens the Field Calculator window for the selected layer.
 
-- レイヤ名表示・編集
-    - 選択中のレイヤ名を表示します。
-    - 鉛筆アイコンをクリックすると名前を編集でき、再度クリックでレイヤに反映されます。
-- ファイル名の表示、フォルダ表示
-    - 選択中レイヤのファイル名を表示します。
-    - フォルダボタンを押すと、保存場所のフォルダが開きます。
-- レイヤの種類、CRS
-    - 選択中レイヤの種類とEPSGが表示されます。
-- 選択レイヤのみを表示
-    - クリックすると、選択中のレイヤのみが地図に表示され、他のレイヤは一時的に非表示になります。
-    - レイヤ選択を変更すると、表示対象も追従します。
-    - 再度クリックすると元の表示状態に戻ります。
-    - 右クリックでサブメニューが表示され、非表示にしないレイヤを個別に指定することも可能です。
-    - パネルを閉じた場合は自動で元の状態に復元されます。
-- レイヤ範囲にズームする
-    - 選択中レイヤ全体が表示される範囲に地図エリアがズーム・縮小されます。
-- レイヤプロパティを開く
-    - 選択中レイヤのレイヤプロパティウインドウが開きます。
-- スタイル設定を開く
-    - 選択中レイヤのスタイル設定パネルが開きます。
-- 新規ファイルでエクスポートする
-    - 選択中レイヤを新規ファイルでエクスポートするウインドウが開きます。
-- 地物数欄
-    - 選択中レイヤの地物数を表示します。
-- 属性テーブルを開く
-    - 選択中レイヤの属性テーブルを確認するパネルが開きます。
-- ラベル表示を切り替える
-    - 選択中レイヤのラベル表示をON/OFFします。
-    - すでにラベル設定がある場合はその内容を維持して表示／非表示を切り替えます。
-    - 右クリックで表示フィールドを選択できます。
-    - ただし、ルールベースなどの複雑な設定がある場合、この機能は無効になります。
-- フィールド計算機を開く
-    - 選択したレイヤのフィールド計算機ウインドウを開きます。
+**[When a vector layer is selected (attribute table section displayed)]**
 
-**【ベクタレイヤ選択時（属性テーブル欄表示）】**
+When you click the "Open Attribute Table" button, the attribute table section for the selected layer will be displayed.
 
-「属性テーブルを開く」ボタンを押すと選択レイヤの属性テーブル欄が表示されます。
+![Layer Operation Panel (Vector Layer Selected - Attribute Table Section Displayed)](./docs/images/en/layer_panel_vector_attrtable.png)
 
-![レイヤ操作パネル（ベクタレイヤ選択時‐属性テーブル欄表示）](./docs/images/en/layer_panel_vector_attrtable.png)
+- Displays the attribute table of the selected layer.  
+- When another layer is selected in the Layer Panel, the attribute table switches to the newly selected layer.  
+- The button at the top of the attribute table opens the standard QGIS attribute table window for the currently selected layer.
 
-- 選択中レイヤの属性テーブルが表示されます。
-- レイヤパネルで別のレイヤを選択すると、属性テーブルは選択したレイヤに変わります。
-- 属性テーブル上部のボタンで、選択しているレイヤQGIS標準の属性テーブルウインドウを開きます。
+If the selected layer contains more than 500 features, the following button is displayed:
 
-地物数が500件を超えるレイヤの場合、以下のようにボタンが表示されます。
+![Layer Operation Panel (Vector Layer Selected - Attribute Table Section Displayed - Over 500 Features)](./docs/images/en/layer_panel_vector_attrtable_over_500.png)
 
-![レイヤ操作パネル（ベクタレイヤ選択時‐属性テーブル欄表示-500件超え）](./docs/images/en/layer_panel_vector_attrtable_over_500.png)
+- Click the "Load All Features" button to display the attribute table for all features.
 
-- 全件表示ボタンをクリックするとすべての地物の属性テーブルが表示されます。
+**[When a raster layer is selected]**
 
-**【ラスタレイヤ選択時】**
+When a raster layer is selected, the panel changes as follows:
 
-ラスタレイヤを選択すると以下のように変わります。
+![Layer Operation Panel (Raster Layer Selected)](./docs/images/en/layer_panel_raster.png)
 
-![レイヤ操作パネル（ラスタタレイヤ選択時）](./docs/images/en/layer_panel_raster.png)
+From the top to the "Export as New File" button, the functions are the same as for vector layers.
 
-上から「新規ファイルでエクスポートする」ボタンまではベクタレイヤのときと同じ機能です。
-
-- ラスタ計算機を開く
-    - 選択したレイヤのラスタ計算機ウインドウを開きます。
+- Open Raster Calculator  
+    - Opens the Raster Calculator window for the selected layer.
 
 ---
 
-## 対応環境 / Requirements
+## Requirements
 
-- QGIS 3.22 以降
-- 標準環境（追加ライブラリなし）
+- QGIS 3.22 or later  
+- Standard environment (no additional libraries required)
 
 ---
 
-## 作者 / Author
+## Author
 
 - 技術チーム合同会社  
   Tech Team LLC  
   https://techteam.co.jp/
 
-お問い合わせは GitHub Issue または [QGIS公式プラグインページ](https://plugins.qgis.org/) を通じてご連絡ください。
-
 ---
 
-## ライセンス / License
+## License
 
 GPL-3.0 license
-Copyright (c) 2025 Takeshi Tanaka
