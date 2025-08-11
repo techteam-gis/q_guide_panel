@@ -1,7 +1,7 @@
 [general]
 name=QGIS Guide Panel
 qgisMinimumVersion=3.22
-description=Quick access to common QGIS actions like navigation, zooming, attribute editing, and basemap switching.
+description=Quick access to common QGIS actions like navigation, zooming, attribute editing.
 version=1.0
 author=Takeshi Tanaka
 email=t.tanaka.pub@gmail.com
