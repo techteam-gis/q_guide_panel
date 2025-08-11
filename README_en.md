@@ -157,15 +157,6 @@ From the top to the "Export as New File" button, the functions are the same as f
 ## Requirements
 
 - QGIS 3.22 or later  
-- Standard environment (no additional libraries required)
-
----
-
-## Author
-
-- 技術チーム合同会社  
-  TechTeam Solutions LLC
-  https://techteam.co.jp/
 
 ---
 

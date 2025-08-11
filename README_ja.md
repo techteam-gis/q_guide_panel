@@ -156,15 +156,6 @@ QGIS 標準のレイヤパネルでユーザーが選択したレイヤに応じ
 ## 対応環境
 
 - QGIS 3.22 以降
-- 標準環境（追加ライブラリなし）
-
----
-
-## Author
-
-- 技術チーム合同会社  
-  TechTeam Solutions LLC
-  https://techteam.co.jp/
 
 ---
 
